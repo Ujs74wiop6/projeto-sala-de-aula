@@ -16,6 +16,27 @@ Esta API foi desenvolvida para realizar operações de CRUD (Create, Read, Updat
 - **PostgreSQL** instalado e configurado.
 - Um editor de texto como **VSCode**.
 
+## Utilizando o Projeto
+
+```bash
+git clone git@github.com:Ujs74wiop6/projeto-sala-de-aula.git
+```
+
+```bash
+cd projeto-sala-de-aula/
+```
+
+```bash
+npm install
+```
+
+### Configure o seu SGBD (no caso do projeto foi o PostgreSQL) e crie a tabela
+### Script SQL está na pasta `/conf`
+
+```bash
+node app.js
+```
+
 ## Rotas da API
 
 ### 1. Listar todas as salas de aula
